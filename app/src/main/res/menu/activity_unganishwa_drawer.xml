@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/ic_drawer_menu_new"
+            android:title="@string/recent" />
+        <item
+            android:id="@+id/nav_chick"
+            android:icon="@drawable/ic_drawer_menu_female"
+            android:title="@string/chicks" />
+        <item
+            android:id="@+id/nav_dude"
+            android:icon="@drawable/ic_drawer_menu_male"
+            android:title="@string/dudes" />
+
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@drawable/ic_menu_upload"
+            android:title="@string/gallery" />
+        <item
+            android:id="@+id/nav_sign_in"
+            android:icon="@drawable/ic_drawer_menu_sign_in"
+            android:title="@string/sign_up" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_whatsapp_admin"
+                android:icon="@drawable/ic_drawer_menu_whatsapp"
+                android:title="@string/whatsapp_admin" />
+        </menu>
+    </item>
+
+</menu>
